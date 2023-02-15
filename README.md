@@ -17,7 +17,7 @@ To install Raylib :
 
 Then just edit the "main.cpp" file
 
-# Work With Linux
+# Linux Error : Premission
 Allow executing file as program by Right click on "Pong.x86_64" file
 then go to properties then premission then Click "Allow executing file as program"
 
