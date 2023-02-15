@@ -13,7 +13,9 @@ Fist you will need :
  - Any code editor  
 
 To install gcc:
- - Linux Ubuntu based ```sudo apt install build-essential```
+ - Linux APT package manager : ```sudo apt install gcc g++```
+ - Linux DNF package manager : ```sudo dnf install gcc g++```
+ - Linux PACMAN package manager : ```sudo pacman -S gcc g++```
 
 Then just edit the "main.cpp" file
 
