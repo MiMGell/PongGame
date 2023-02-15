@@ -367,6 +367,10 @@ int main (void)
             if (bot_score == 10)
             {
                 DrawTexture(P2_txture, 250, 40, WHITE);
+                DrawText("P1 ", 250, 250, 40, WHITE);
+                DrawText("AI ", 250, 300, 40, WHITE);
+                DrawText(TextFormat(": %i", player_score), 320, 250, 40, WHITE);
+                DrawText(TextFormat(": %i", bot_score), 320, 300, 40, WHITE);
 
             }
             if (player_score == 10)
