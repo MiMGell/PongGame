@@ -10,13 +10,7 @@ A PongGame made using c++ and Raylib
 Fist you will need :
  - gcc or mingw for C/C++ compiler
  - Raylib : https://www.raylib.com/
- - Any code editor 
-Then To Install :
- - gcc :
-    in Linux :
-    ''' code
-    sudo apt install build-essential
-    '''
+ - Any code editor  
 
 Then just edit the "main.cpp" file
 
