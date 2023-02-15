@@ -4,7 +4,13 @@ A PongGame made using c++ and Raylib
 # Source
  - (gnu c compiler) g++ : https://gcc.gnu.org/
  - Raylib               : https://www.raylib.com/
- - Pong Mechanics       : https://youtu.be/VLJlTaFvHo4
+ - Pong Mechanics       : https://youtu.be/VLJlTaFvHo4 
+
+# How To MAKE My Own Versions
+Fist you will need :
+ - gcc or mingw for C/C++ compiler : linux("sudo {apt, dnf, pacman} {install, -S} build-essential gcc g++")
+ - Raylib library : https://www.raylib.com/
+ - Any code editor 
 
 # Work With Linux
 Allow executing file as program by Right click on 'Pong.x86_64' file
