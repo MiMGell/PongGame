@@ -18,7 +18,7 @@ To install gcc :
  - Linux PACMAN package manager : ```sudo pacman -S gcc g++```  
 
 To install Raylib :
- - you can follow the working with linux or windows in the (Raylib Repo)[https://github.com/raysan5/raylib]
+ - you can follow the working with linux or windows in the [Raylib Repo](https://github.com/raysan5/raylib)
 
 Then just edit the "main.cpp" file
 
