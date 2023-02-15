@@ -12,6 +12,9 @@ Fist you will need :
  - Raylib : https://www.raylib.com/
  - Any code editor  
 
+To install gcc:
+ - Linux Ubuntu based ```sudo apt install build-essential```
+
 Then just edit the "main.cpp" file
 
 # Work With Linux
