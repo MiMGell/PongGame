@@ -447,7 +447,7 @@ int main (void)
             DrawText("By\nMiigel", 5, 5, 20, botSide);
             DrawText("P1 ", 110, GetScreenHeight() - 45, 20, WHITE);
             DrawLine(105 ,GetScreenHeight() - 25, 200, GetScreenHeight() - 25, WHITE);
-            DrawText("AI ", 110, GetScreenHeight() - 25, 20, WHITE);
+            DrawText("P2 ", 110, GetScreenHeight() - 25, 20, WHITE);
             DrawText(TextFormat("%i", player_score), 150, GetScreenHeight() - 45, 20, WHITE);
             DrawText(TextFormat("%i", bot_score), 150, GetScreenHeight() - 25, 20, WHITE);
             DrawTexture(paddle_txture, player.x, player.y, WHITE);
