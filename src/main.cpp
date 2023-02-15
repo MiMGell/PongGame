@@ -366,12 +366,12 @@ int main (void)
             DrawTexture(back_txture, back.x, back.y, WHITE);
             if (bot_score == 10)
             {
-                DrawTexture(P2_txture, 300, 40, WHITE);
+                DrawTexture(P2_txture, 250, 40, WHITE);
 
             }
             if (player_score == 10)
             {
-                DrawTexture(P1_txture, 300, 40, WHITE);
+                DrawTexture(P1_txture, 250, 40, WHITE);
             }
             if (CheckCollisionPointRec(Vector2{mousePoint}, Rectangle{back.x, back.y, back.width, back.height}))
             {
