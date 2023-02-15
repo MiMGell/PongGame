@@ -1,7 +1,7 @@
 # PongGame
 A PongGame made using c++ and Raylib
 
-# How To MAKE My Own Versions of PogGame
+# How To MAKE My Own Versions of PongGame
 Fist you will need :
  - gcc or mingw for C/C++ compiler
  - Raylib : https://www.raylib.com/
