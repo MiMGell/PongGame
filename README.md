@@ -5,7 +5,7 @@ A PongGame made using c++ and Raylib
 Fist you will need :
  - gcc or mingw for C/C++ compiler
  - Raylib : https://www.raylib.com/
- - Clone the PongGame Repo : ``` a```
+ - Clone the PongGame Repo : ```https://github.com/MiMGell/PongGame.git```
  - Any code editor  
 
 To install gcc :
