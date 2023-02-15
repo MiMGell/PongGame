@@ -8,9 +8,11 @@ A PongGame made using c++ and Raylib
 
 # How To MAKE My Own Versions
 Fist you will need :
- - gcc or mingw for C/C++ compiler : linux("sudo {apt, dnf, pacman} {install, -S} build-essential gcc g++")
- - Raylib library : https://www.raylib.com/
+ - gcc or mingw for C/C++ compiler
+ - Raylib : https://www.raylib.com/
  - Any code editor 
+
+Then just edit the "main.cpp" file
 
 # Work With Linux
 Allow executing file as program by Right click on 'Pong.x86_64' file
