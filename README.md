@@ -11,9 +11,15 @@ Fist you will need :
  - gcc or mingw for C/C++ compiler
  - Raylib : https://www.raylib.com/
  - Any code editor 
+Then To Install :
+ - gcc :
+    in Linux :
+    ''' code
+    sudo apt install build-essential
+    '''
 
 Then just edit the "main.cpp" file
 
 # Work With Linux
-Allow executing file as program by Right click on 'Pong.x86_64' file
-then go to properties then premission then Click 'Allow executing file as program'
+Allow executing file as program by Right click on "Pong.x86_64" file
+then go to properties then premission then Click "Allow executing file as program"
