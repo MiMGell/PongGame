@@ -12,10 +12,13 @@ Fist you will need :
  - Raylib : https://www.raylib.com/
  - Any code editor  
 
-To install gcc:
+To install gcc :
  - Linux APT package manager : ```sudo apt install gcc g++```
  - Linux DNF package manager : ```sudo dnf install gcc g++```
- - Linux PACMAN package manager : ```sudo pacman -S gcc g++```
+ - Linux PACMAN package manager : ```sudo pacman -S gcc g++```  
+
+To install Raylib :
+ - you can follow the working with linux or windows in the Raylib Repo : https://github.com/raysan5/raylib
 
 Then just edit the "main.cpp" file
 
