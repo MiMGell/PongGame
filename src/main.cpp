@@ -376,6 +376,10 @@ int main (void)
             if (player_score == 10)
             {
                 DrawTexture(P1_txture, 250, 40, WHITE);
+                DrawText("P1 ", 250, 250, 40, WHITE);
+                DrawText("AI ", 250, 300, 40, WHITE);
+                DrawText(TextFormat(": %i", player_score), 320, 250, 40, WHITE);
+                DrawText(TextFormat(": %i", bot_score), 320, 300, 40, WHITE);
             }
             if (CheckCollisionPointRec(Vector2{mousePoint}, Rectangle{back.x, back.y, back.width, back.height}))
             {
