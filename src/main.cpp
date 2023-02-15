@@ -368,7 +368,7 @@ int main (void)
             {
                 DrawTexture(P2_txture, 250, 40, WHITE);
                 DrawText("P1 ", 250, 250, 40, WHITE);
-                DrawText("AI ", 250, 300, 40, WHITE);
+                DrawText("P2 ", 250, 300, 40, WHITE);
                 DrawText(TextFormat(": %i", player_score), 320, 250, 40, WHITE);
                 DrawText(TextFormat(": %i", bot_score), 320, 300, 40, WHITE);
 
@@ -377,7 +377,7 @@ int main (void)
             {
                 DrawTexture(P1_txture, 250, 40, WHITE);
                 DrawText("P1 ", 250, 250, 40, WHITE);
-                DrawText("AI ", 250, 300, 40, WHITE);
+                DrawText("P2 ", 250, 300, 40, WHITE);
                 DrawText(TextFormat(": %i", player_score), 320, 250, 40, WHITE);
                 DrawText(TextFormat(": %i", bot_score), 320, 300, 40, WHITE);
             }
