@@ -312,6 +312,12 @@ int main (void)
     Image Pong = LoadImage("image/PongGame.png");
     Texture2D Pong_txture = LoadTextureFromImage(Pong);
     UnloadImage(Pong);
+    Image P1_img = LoadImage("image/P1Win.png");
+    Texture2D P1_txture = LoadTextureFromImage(P1_img);
+    UnloadImage(P1_img);
+    Image P2_img = LoadImage("image/P2Win.png");
+    Texture2D P2_txture = LoadTextureFromImage(P2_img);
+    UnloadImage(P2_img);
 
     Sound Bttnsfx = LoadSound("sfx/Button.wav");
     Sound score = LoadSound("sfx/scored.wav");
@@ -360,11 +366,12 @@ int main (void)
             DrawTexture(back_txture, back.x, back.y, WHITE);
             if (bot_score == 10)
             {
-                DrawText("Right Player Win!!!\n          >", 100, GetScreenHeight()/2 - 20, 60, MenuGrey);
+                DrawTexture(P2_txture, 250, 40, WHITE);
+
             }
             if (player_score == 10)
             {
-                DrawText("Left Player Win!!!\n        <", 100, GetScreenHeight()/2 - 20, 60, MenuGrey);
+                DrawTexture(P1_txture, 250, 40, WHITE);
             }
             if (CheckCollisionPointRec(Vector2{mousePoint}, Rectangle{back.x, back.y, back.width, back.height}))
             {
@@ -613,6 +620,8 @@ int main (void)
     UnloadTexture(back_txture);
     UnloadTexture(backOnH_txture);
     UnloadTexture(Pong_txture);
+    UnloadTexture(P1_txture);
+    UnloadTexture(P2_txture);
     CloseWindow();
     return 0;
 }
